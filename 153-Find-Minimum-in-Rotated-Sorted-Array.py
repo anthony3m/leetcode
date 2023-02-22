@@ -3,7 +3,7 @@ class Solution:
         start , end = 0 ,len(nums) - 1 
         curr_min = float("inf")
         
-        while start  <  end :
+        while start < end :
             mid = (start + end ) // 2
             curr_min = min(curr_min,nums[mid])
             
