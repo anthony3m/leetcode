@@ -8,3 +8,4 @@ class Solution:
             if diff in hashMap:
                 return [hashMap[diff], i]
             hashMap[val] = i
+            
